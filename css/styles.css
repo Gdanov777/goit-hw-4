@@ -121,6 +121,8 @@ li {
 }
 
 .link-logo-web {
+  display: inline-block;
+  margin-bottom: 16px;
   text-decoration: none;
   font-family: var(--secondary-font);
   font-style: normal;
@@ -130,8 +132,7 @@ li {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--brand-color);
-  display: inline-block;
-  margin-bottom: 16px;
+  
 }
 
 .logo-web-link {
@@ -439,9 +440,7 @@ li {
   font-size: 16px;
   line-height: 24px;
   padding: 12px 24px;
-
   color: var(--brand-color);
-
   background: var(--light-color);
   border: 1px solid var(--accent-color);
   border-radius: 4px;
@@ -450,8 +449,8 @@ li {
 
 .filters-btn:hover,
 .filters-btn:focus {
-  color: var(--white-color);
   border: 1px solid transparent;
+  color: var(--white-color);
 }
 
 .filters-btn:hover,
