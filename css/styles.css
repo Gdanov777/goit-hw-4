@@ -79,12 +79,11 @@ li {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: currentColor;
+  
 }
 
-.link:hover,
-.link:focus {
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0, 08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+.project-card:hover,
+.project-card:focus {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0, 08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
@@ -213,19 +212,17 @@ li {
   display: block;
 }
 
+.header-nav-link :hover,
+.header-nav-link :focus {
+ color: #ffffff;
+}
+
 .header-link:hover {
   color: var(--action-color);
   text-decoration: underline;
 }
 
 .contact-paragraf {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--text-color);
-}
-
-.contact-paragraf:active {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -240,7 +237,6 @@ li {
 .peculiarity{
   margin-bottom: 8px;
 }
-
 
 .portfolio-title {
   font-weight: 500;
@@ -263,6 +259,10 @@ li {
   padding-left: 0;
   display: flex;
   gap: 24px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: start;
   background-color: var(--white-color);
 }
 
