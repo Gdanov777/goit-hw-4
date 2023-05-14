@@ -116,22 +116,21 @@ li {
 }
 
 .link-logo-web {
-  margin-right: 76px;
+ 
+  margin-bottom: 16px;
   font-family: 'Raleway', sans-serif;
   font-style: normal;
-  font-weight: 800;
   font-size: 18px;
-  line-height: 1.17;
+ 
   display: inline-block;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
-  color: var(--light-color);
-  padding: 24px 0;       
+  color: var(--action-color);     
 }
 
 .logo-web-link {
-  color: var(--action-color);
+  color: var(--light-color);
  
 }
 
@@ -352,14 +351,6 @@ li {
   color: var(--text-color);
 }
 
-.list-btn {
-  padding-left: 0;
-  list-style: none;
-  display: flex;
-  justify-content: center;
-  gap: 24px;
-  margin-bottom: 72px;
-}
 
 .section-one {
   padding-left: 0;
@@ -439,29 +430,36 @@ li {
 
 /* Button */
 
+.list-btn {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 72px;
+}
+
 .filters-btn {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  padding: 12px 24px;
-  color: var(--brand-color);
-  background: var(--light-color);
-  border: 1px solid var(--accent-color);
   border-radius: 4px;
   cursor: pointer;
+  background: var(--light-color);
+  border: 1px solid var(--accent-color);
+  color: var(--brand-color);
+  padding: 12px 24px;
 }
-
 
 .filters-btn:hover,
 .filters-btn:focus {
   border: 1px solid transparent;
   color: var(--white-color);
   background-color: var(--action-color);
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
+   0px 2px 1px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
-  border-color: var(--action-color);
+    
 }
 
 .button-main-title {
@@ -559,7 +557,7 @@ li {
 }
 
 .footer-p {
-  width: 264px;
+  max-width: 264px;
   white-space: normal;
   color: var(--accent-color);
 }
