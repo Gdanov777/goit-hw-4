@@ -116,23 +116,23 @@ li {
 }
 
 .link-logo-web {
-  display: inline-block;
-  margin-bottom: 16px;
-  text-decoration: none;
-  font-family: var(--secondary-font);
+  margin-right: 76px;
+  font-family: 'Raleway', sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
+  display: inline-block;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--brand-color);
-  
+  text-decoration: none;
+  color: var(--light-color);
+  padding: 24px 0;       
 }
 
 .logo-web-link {
-  color: var(--light-color);
-  text-decoration: none;
+  color: var(--action-color);
+ 
 }
 
 .link-photo-portfolio {
@@ -219,9 +219,6 @@ li {
 }
 
 .contact-paragraf {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
   color: var(--text-color);
 }
 
@@ -231,7 +228,20 @@ li {
 }
 
 .peculiarity{
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--dark-color);
   margin-bottom: 8px;
+}
+
+.peculiarity-details{
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  white-space: normal;
+  color: var(--text-color);
 }
 
 .portfolio-title {
@@ -549,13 +559,9 @@ li {
 }
 
 .footer-p {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
+  width: 264px;
+  white-space: normal;
   color: var(--accent-color);
-  max-width: 264px;
-  margin-top: 18px;
 }
 
 .footer-conteiner {
