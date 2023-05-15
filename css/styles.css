@@ -343,6 +343,7 @@ li {
 .social-media-link:hover,
 .social-media-link :focus {
   background-color: var(--action-color);
+  background-color: var(--action-color);
 }
 
 .project-card-set {
