@@ -403,6 +403,13 @@ li {
   padding: 32px 0px;
 }
 
+.imployee-icon{
+  width: 16px;
+  height: 16px;
+  fill: var(--light-color);
+}
+
+
 .names-of-specialists {
   text-align: center;
   margin-bottom: 8px;
@@ -531,6 +538,7 @@ li {
   justify-content: center;
   align-items: center;
   border: 1px solid var(--subtext-color);
+  color: var(--subtext-color);
   border-radius: 4px;
 }
 
@@ -569,7 +577,7 @@ li {
 }
 
 .footer-conteiner {
-  margin-right: 120px;
+  gap: 120px;
 }
 
 .footer-section {
@@ -629,6 +637,12 @@ li {
   gap: 24px;
 }
 
+.list-footer-media{
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
 .social-media-item {
   width: 40px;
   height: 40px;
@@ -660,6 +674,5 @@ li {
 }
 
 .footer-ikon {
-  width: 16px;
   fill: var(--light-color);
 }
