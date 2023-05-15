@@ -27,6 +27,9 @@ p{
   --green-color: #31d0aa;
 }
 
+element.style{
+  margin-right: 120px;
+}
 
 *::before,
 *::after {
@@ -62,6 +65,7 @@ button {
 }
 
 svg:not(:root) {
+  fill: var(--light-color);
   overflow: hidden;
 }
 
@@ -647,17 +651,16 @@ li {
 
 .footer-links{
   position: absolute;
-  width: 208px;
-  height: 80px;
   left: 540px;
   
 }
 
 .soc-media-link:hover,
 .soc-media-link:focus {
-  background-color: var(--green-color);
+  background-color:  #31d0aa;
 }
 
 .footer-ikon {
+  width: 24px;
   fill: var(--light-color);
 }
