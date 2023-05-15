@@ -27,8 +27,9 @@ p{
   --green-color: #31d0aa;
 }
 
-*::after,
-*::before {
+
+*::before,
+*::after {
   box-sizing: border-box;
 }
 
