@@ -10,7 +10,7 @@ h3,
 h4,
 h5,
 h6,
-p{
+p {
   margin: 0;
 }
 
@@ -23,12 +23,11 @@ p{
   --light-color: #f4f4fd;
   --accent-color: #e7e9fc;
   --action-color: #404bbf;
-  --green-color: #31D0AA;
-  --trasition: 250ms cubic-bezier(0.4, 0, 0.2, 1)
- 
+  --green-color: #31d0aa;
+  --trasition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-element.style{
+element.style {
   margin-right: 120px;
 }
 
@@ -81,7 +80,6 @@ li {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: currentColor;
-  
 }
 
 .project-card:hover,
@@ -122,22 +120,20 @@ li {
 }
 
 .link-logo-web {
- 
   margin-bottom: 16px;
   font-family: 'Raleway', sans-serif;
   font-style: normal;
   font-size: 18px;
- 
+
   display: inline-block;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
-  color: var(--action-color);     
+  color: var(--action-color);
 }
 
 .logo-web-link {
   color: var(--light-color);
- 
 }
 
 .link-photo-portfolio {
@@ -215,7 +211,7 @@ li {
 
 .header-nav-link :hover,
 .header-nav-link :focus {
- color: #ffffff;
+  color: #ffffff;
 }
 
 .header-link:hover {
@@ -232,7 +228,7 @@ li {
   color: var(--action-color);
 }
 
-.peculiarity{
+.peculiarity {
   font-weight: 600;
   font-size: 20px;
   line-height: 1.2;
@@ -241,7 +237,7 @@ li {
   margin-bottom: 8px;
 }
 
-.peculiarity-details{
+.peculiarity-details {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -298,6 +294,17 @@ li {
   border: 1px solid var(--accent-color);
 }
 
+.card-link {
+  display: block;
+}
+
+.card-link :hover,
+.card-link :focus {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+  0px 1px 1px rgba(46, 47, 66, 0.16),
+  0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
 .project-card-img {
   flex-basis: calc((100% - 72px) / 4);
   margin-bottom: 48px;
@@ -331,12 +338,10 @@ li {
   width: 40px;
   height: 40px;
   margin-bottom: 32px;
-  
 }
 
-.social-media-link:hover, 
-.social-media-link :focus{
-  background-color: var(--action-color);
+.social-media-link:hover,
+.social-media-link :focus {
   background-color: var(--action-color);
 }
 
@@ -423,7 +428,7 @@ li {
     ),
     url('../images/office.jpg');
   background-color: var(--brand-color);
-  
+
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -458,7 +463,6 @@ li {
   border-radius: 4px;
   cursor: pointer;
 }
-
 
 .filters-btn:hover,
 .filters-btn:focus {
@@ -542,13 +546,17 @@ li {
 }
 
 .icon-customers :hover,
-.icon-customers :focus{
-  background-color:  #404bbf;
+.icon-customers :focus {
+  background-color: var(--action-color);
 }
 
 .customers-icon {
   height: 56px;
   fill: currentColor;
+}
+
+.customers-icon :hover .customers-icon :focus {
+  background-color: var(--action-color);
 }
 
 .customers-file {
@@ -619,7 +627,7 @@ li {
   gap: 24px;
 }
 
-.list-footer-media{
+.list-footer-media {
   display: flex;
   justify-content: center;
   gap: 16px;
@@ -642,10 +650,9 @@ li {
   justify-content: center;
 }
 
-.footer-links{
+.footer-links {
   position: absolute;
   left: 540px;
-  
 }
 
 .soc-media-link:hover,
