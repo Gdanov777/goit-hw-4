@@ -23,8 +23,9 @@ p{
   --light-color: #f4f4fd;
   --accent-color: #e7e9fc;
   --action-color: #404bbf;
+  --green-color: #31D0AA;
   --trasition: 250ms cubic-bezier(0.4, 0, 0.2, 1)
-  --green-color: #31d0aa;
+ 
 }
 
 element.style{
@@ -409,12 +410,6 @@ li {
   padding: 32px 0px;
 }
 
-.imployee-icon{
-  width: 16px;
-  fill: var(--light-color);
-}
-
-
 .names-of-specialists {
   text-align: center;
   margin-bottom: 8px;
@@ -603,8 +598,6 @@ li {
 }
 
 .team-soc-icon {
-  width: 16px;
-  height: 16px;
   fill: var(--light-color);
 }
 
@@ -657,10 +650,9 @@ li {
 
 .soc-media-link:hover,
 .soc-media-link:focus {
-  background-color:  #31d0aa;
+  background-color: var(--green-color);
 }
 
 .footer-ikon {
-  width: 24px;
   fill: var(--light-color);
 }
