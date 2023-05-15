@@ -332,6 +332,7 @@ li {
 .social-media-link:hover, 
 .social-media-link :focus{
   background-color: var(--action-color);
+  background-color: var(--action-color);
 }
 
 .project-card-set {
@@ -406,7 +407,6 @@ li {
 
 .imployee-icon{
   width: 16px;
-  height: 16px;
   fill: var(--light-color);
 }
 
@@ -539,13 +539,12 @@ li {
   justify-content: center;
   align-items: center;
   border: 1px solid var(--subtext-color);
-  color: var(--subtext-color);
   border-radius: 4px;
 }
 
 .icon-customers :hover,
 .icon-customers :focus{
-  background-color: #404bbf;
+  background-color:  #404bbf;
 }
 
 .customers-icon {
@@ -576,15 +575,13 @@ li {
   white-space: normal;
   color: var(--accent-color);
 }
+.footer-section {
+  display: flex;
+  align-items: baseline;
+}
 
 .footer-conteiner {
   margin-right: 120px;
-}
-
-.footer-section {
-  display: flex;
-  gap: 120px;
-  align-items: baseline;
 }
 
 .portfolio-title {
@@ -595,21 +592,11 @@ li {
   padding: 96px 0 120px;
 }
 
-.soc-media {
- 
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
- 
- 
-}
-
 .social-media {
   display: flex;
   justify-content: center;
   gap: 24px;
 }
-
 
 .team-soc-icon {
   width: 16px;
@@ -621,15 +608,12 @@ li {
 
 .soc-media {
   font-family: 'Roboto';
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   font-weight: 500;
   color: var(--white-color);
   margin-bottom: 16px;
-}
-
-.footer-section {
-  display: flex;
-  gap: 120px;
-  align-items: baseline;
 }
 
 .list-social-media {
@@ -670,7 +654,7 @@ li {
 }
 
 .soc-media-link:hover,
-.soc-media-link :focus {
+.soc-media-link:focus {
   background-color: var(--green-color);
 }
 
