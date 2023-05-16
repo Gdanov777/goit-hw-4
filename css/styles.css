@@ -64,6 +64,7 @@ button {
 svg:not(:root) {
   fill: var(--light-color);
   overflow: hidden;
+  fill: currentColor;
 }
 
 li {
@@ -332,14 +333,13 @@ li {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 40px;
-  height: 40px;
   margin-bottom: 32px;
 }
 
 .social-media-link:hover,
 .social-media-link :focus {
-  background-color: var(--action-color);
+  background-color: #404bbf;
+  background-color: #404bbf;
 }
 
 .project-card-set {
@@ -549,14 +549,7 @@ li {
 }
 
 .customers-icon {
-  background-color: var(--subtext-color);
-  height: 56px;
-  cursor: pointer;
-  fill: currentColor;
-}
-
-.customers-icon :hover .customers-icon :focus {
-  background-color: var(--action-color);
+ 
 }
 
 .customers-file {
