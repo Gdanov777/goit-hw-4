@@ -338,7 +338,6 @@ li {
 .social-media-link:hover,
 .social-media-link :focus {
   background-color: #404bbf;
-  background-color: #404bbf;
 }
 
 .team-soc-icon{
@@ -562,7 +561,6 @@ color: #404bbf;
 .customers-item:hover,
 .customers-item:focus {
   color: var(--action-color);
-  border: 2px solid var(--action-color);
 }
 
 /* footer */
