@@ -62,7 +62,6 @@ button {
 }
 
 svg:not(:root) {
-  fill: var(--light-color);
   overflow: hidden;
   fill: currentColor;
 }
@@ -338,8 +337,12 @@ li {
 
 .social-media-link:hover,
 .social-media-link :focus {
-  background-color: #404bbf;
-  background-color: #404bbf;
+  background-color: var(--action-color);
+  background-color: var(--action-color);
+}
+
+.team-soc-icon{
+fill: var(--light-color);
 }
 
 .project-card-set {
@@ -539,13 +542,15 @@ li {
   display: flex;
   justify-content: center;
   align-items: center;
+  color: var(--subtext-color);
   border: 1px solid var(--subtext-color);
 }
 
 
 .icon-customers :hover,
 .icon-customers :focus {
-  background-color: var(--action-color);
+border-color: #404bbf;
+color: #404bbf;
 }
 
 .customers-icon {
@@ -596,10 +601,6 @@ li {
   display: flex;
   justify-content: center;
   gap: 24px;
-}
-
-.team-soc-icon {
-  fill: var(--light-color);
 }
 
 /* ------------- */
