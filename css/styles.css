@@ -337,8 +337,8 @@ li {
 
 .social-media-link:hover,
 .social-media-link :focus {
-  background-color: var(--action-color);
-  background-color: var(--action-color);
+  background-color: #404bbf;
+  background-color: #404bbf;
 }
 
 .team-soc-icon{
