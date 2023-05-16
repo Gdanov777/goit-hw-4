@@ -342,7 +342,8 @@ li {
 }
 
 .team-soc-icon{
-fill: var(--light-color);
+  color: var(--light-color);
+
 }
 
 .project-card-set {
@@ -553,10 +554,6 @@ border-color: #404bbf;
 color: #404bbf;
 }
 
-.customers-icon {
- 
-}
-
 .customers-file {
   padding-top: 120px;
   padding-bottom: 120px;
@@ -653,6 +650,6 @@ color: #404bbf;
   background-color: var(--green-color);
 }
 
-.footer-ikon {
-  fill: var(--light-color);
+.footer-icon{
+  color: var(--light-color);
 }
