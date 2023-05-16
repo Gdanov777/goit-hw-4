@@ -300,7 +300,8 @@ li {
 .card-link :hover,
 .card-link :focus {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    0px 1px 1px rgba(46, 47, 66, 0.16),
+     0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .project-card-img {
@@ -338,7 +339,7 @@ li {
 
 .social-media-link:hover,
 .social-media-link :focus {
-  background-color: #404bbf;
+  background-color: var(--action-color);
 }
 
 .team-soc-icon {
@@ -548,13 +549,11 @@ li {
   justify-content: center;
   align-items: center;
   color: var(--subtext-color);
-  border: 2px solid var(--subtext-color);
+  border: 1px solid var(--subtext-color);
 }
 
 .icon-customers :hover,
 .icon-customers :focus {
-  border-color: #404bbf;
-  color: #404bbf;
   border-color: #404bbf;
   color: #404bbf;
 }
@@ -564,10 +563,6 @@ li {
   padding-bottom: 120px;
 }
 
-.customers-item:hover,
-.customers-item:focus {
-  color: var(--action-color);
-}
 
 /* footer */
 
