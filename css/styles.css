@@ -210,7 +210,6 @@ li {
   color: #ffffff;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
- 
 }
 
 .header-link:hover {
@@ -300,15 +299,14 @@ li {
 .card-link :hover,
 .card-link :focus {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16),
-     0px 2px 1px rgba(46, 47, 66, 0.08);
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .project-card-img {
   flex-basis: calc((100% - 72px) / 4);
   margin-bottom: 48px;
   border-radius: 0px 0px 4px 4px;
-  background: var(--white-color);
+  background-color: var(--white-color);
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
@@ -338,8 +336,8 @@ li {
 }
 
 .social-media-link:hover,
-.social-media-link :focus {
-  background-color: var(--action-color);
+.social-media-link:focus {
+  background-color: #404bbf;
 }
 
 .team-soc-icon {
@@ -538,7 +536,7 @@ li {
 
 .customers-item :hover,
 .customers-item :focus {
-  border-color: #404bbf;
+ 
 }
 
 .icon-customers {
@@ -554,15 +552,14 @@ li {
 
 .icon-customers :hover,
 .icon-customers :focus {
-  border-color: #404bbf;
-  color: #404bbf;
+ color: #404bbf;
+ border-color: #404bbf;
 }
 
 .customers-file {
   padding-top: 120px;
   padding-bottom: 120px;
 }
-
 
 /* footer */
 
@@ -626,8 +623,6 @@ li {
 .social-media-item {
   width: 40px;
   height: 40px;
-
-  border-radius: 50%;
 }
 
 .soc-media-link {
