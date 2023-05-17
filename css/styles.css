@@ -531,10 +531,12 @@ li {
 .customers-item :hover,
 .customers-item :focus{
   border-color: #404bbf;
+  color: #404bbf;
 }
 
 .icon-customers :hover,
 .icon-customers :focus {
+  border-color: #404bbf;
   color: #404bbf;
 }
 
